@@ -1,0 +1,9 @@
+context myCDSModel {
+	entity myEntity2 {
+		key id: Integer;
+		a: Integer;
+	}
+	technical configuration {
+		row store;
+	}
+};
